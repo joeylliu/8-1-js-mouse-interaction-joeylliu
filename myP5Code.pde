@@ -3,6 +3,8 @@ void setup(){
   size(600, 400); 
   background(255, 255, 255);
 
+//mouseX and mouseY
+
   // tomato
   noStroke();
   fill(224, 90, 90);
@@ -13,16 +15,17 @@ void setup(){
   fill(48, 130, 31);
   rect(276, 103, 12, 32); 
 
-  // take a bite out of the tomato!
-  fill(255, 255, 255);
-  ellipse(175, 200, 30, 30);
 }
 
 //🎯Variable Declarations Go Here
-
+//mouseX and mouseY
 
 //🟢Draw Function - Runs on Repeat
-draw = function(){  
+draw = function(){ 
+
+// take a bite out of the tomato!
+  fill(255, 255, 255);
+  ellipse(mouseX, mouseY, 60, 60);
 
 };
 
@@ -41,5 +44,6 @@ showXYPositions = function(){
     ellipse(mouseX, mouseY, 10, 10);
     fill(255,255,255)
 }
+
 
 
