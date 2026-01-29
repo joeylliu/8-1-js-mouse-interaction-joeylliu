@@ -23,6 +23,12 @@ void setup(){
 
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
+//string = text
+fill(92,12,22);
+textSize(30);
+var myName= "apple";
+var message = myName + "!!!";
+text(message,mouseX,mouseY);
 
 };
 
